@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TROAL — Track Record of All Learning. A personal learning log for academics, skill-building, and projects." />
+  <title>TROAL — Track Record of All Learning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#" aria-label="TROAL home">
+        <span class="brand-mark">T</span>
+        <span class="brand-name">TROAL<span class="brand-dot">.</span><small>TRACK RECORD OF ALL LEARNING</small></span>
+      </a>
+
+      <div class="sidebar-label">WORKSPACE</div>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a class="nav-link active" href="#overview"><span class="nav-icon">▦</span> Overview</a>
+        <a class="nav-link" href="#academics"><span class="nav-icon">▤</span> Academics <span class="nav-count">04</span></a>
+        <a class="nav-link" href="#learning"><span class="nav-icon">⌘</span> Skill Lab <span class="nav-count">06</span></a>
+        <a class="nav-link" href="#projects"><span class="nav-icon">◇</span> Projects <span class="nav-count">08</span></a>
+      </nav>
+
+      <div class="sidebar-label sidebar-label-spaced">YOUR SPACE</div>
+      <nav class="nav-links">
+        <a class="nav-link" href="#highlights"><span class="nav-icon">✳</span> Highlights</a>
+        <a class="nav-link" href="#about"><span class="nav-icon">ⓘ</span> About TROAL</a>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="repo-card">
+          <div class="repo-icon">↗</div>
+          <div><strong>Connected work</strong><p>Keep your work close.</p></div>
+          <span class="status-dot"></span>
+        </div>
+        <div class="profile-row">
+          <div class="avatar">AK</div>
+          <div class="profile-copy"><strong>Learning space</strong><small>Personal workspace</small></div>
+          <button class="icon-button" aria-label="Workspace options">···</button>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-content" id="overview">
+      <header class="topbar">
+        <div class="breadcrumb">Workspace <span>/</span> Overview</div>
+        <div class="topbar-actions">
+          <span class="today-label"><span class="tiny-dot"></span> YOUR LEARNING, IN ONE PLACE</span>
+          <button class="outline-button" id="aboutButton">About TROAL <span>↗</span></button>
+        </div>
+      </header>
+
+      <section class="welcome-section">
+        <div>
+          <div class="eyebrow"><span class="eyebrow-line"></span> YOUR LEARNING LOG</div>
+          <h1>Learning, <span>kept in motion.</span></h1>
+          <p class="welcome-text">A living record of what you're studying, exploring, and building.<br class="desktop-break"> Not a portfolio — a place to track the work behind the progress.</p>
+        </div>
+        <div class="welcome-stamp"><span>✳</span><small>LEARN<br>BY DOING</small></div>
+      </section>
+
+      <section class="stats-grid" aria-label="Learning overview">
+        <article class="stat-card">
+          <div class="stat-top"><span>ACADEMIC SUBJECTS</span><span class="stat-symbol violet">▤</span></div>
+          <div class="stat-number">04 <span class="stat-trend">active</span></div>
+          <div class="stat-bottom"><span class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span>Courses & assignments</span></div>
+        </article>
+        <article class="stat-card">
+          <div class="stat-top"><span>SKILLS IN PROGRESS</span><span class="stat-symbol orange">⌘</span></div>
+          <div class="stat-number">06 <span class="stat-trend">tracked</span></div>
+          <div class="stat-bottom"><span class="progress-track"><i style="width:68%"></i></span><span>Learning paths</span></div>
+        </article>
+        <article class="stat-card">
+          <div class="stat-top"><span>PROJECTS BUILT</span><span class="stat-symbol green">◇</span></div>
+          <div class="stat-number">08 <span class="stat-trend">recorded</span></div>
+          <div class="stat-bottom"><span class="mini-bars green-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span>Small steps count</span></div>
+        </article>
+        <article class="stat-card dark-stat">
+          <div class="stat-top"><span>THIS MONTH</span><span class="stat-symbol dark-symbol">↗</span></div>
+          <div class="stat-number">12 <span class="stat-trend">tasks done</span></div>
+          <div class="stat-bottom"><span class="dark-stat-note">Consistency over intensity.</span></div>
+        </article>
+      </section>
+
+      <section class="section-block" id="highlights">
+        <div class="section-heading">
+          <div><div class="eyebrow">A LITTLE PROGRESS GOES A LONG WAY</div><h2>In the spotlight <span class="heading-star">✳</span></h2></div>
+          <a class="text-link" href="#projects">View all work <span>↗</span></a>
+        </div>
+        <div class="highlight-grid">
+          <article class="highlight-card highlight-featured">
+            <div class="feature-top"><span class="pill pill-light">FEATURED WORK</span><span class="feature-arrow">↗</span></div>
+            <div class="feature-art">
+              <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+              <div class="orbit-core"><span>py</span></div>
+              <span class="art-tag tag-one">DATA</span><span class="art-tag tag-two">BUILD</span><span class="art-tag tag-three">LEARN</span>
+            </div>
+            <div class="highlight-copy"><div class="card-meta">SELF-LEARNING <span>·</span> PYTHON</div><h3>Learning by building</h3><p>Small Python experiments that turn concepts into something tangible.</p><a class="card-link" href="#learning">Explore learning log <span>→</span></a></div>
+          </article>
+          <article class="highlight-card highlight-purple">
+            <div class="feature-top"><span class="pill">RECENT MILESTONE</span><span class="feature-arrow">↗</span></div>
+            <div class="milestone-art"><div class="milestone-number">01<span>/03</span></div><div class="milestone-lines"><i></i><i></i><i></i><i></i></div><span class="milestone-check">✓</span></div>
+            <div class="highlight-copy"><div class="card-meta">ACADEMICS <span>·</span> COURSEWORK</div><h3>One task at a time.</h3><p>Assignments, notes, and practice work — organized by subject.</p><a class="card-link" href="#academics">Browse subjects <span>→</span></a></div>
+          </article>
+          <article class="highlight-card highlight-yellow">
+            <div class="feature-top"><span class="pill">CURRENT FOCUS</span><span class="feature-arrow">↗</span></div>
+            <div class="focus-art"><div class="focus-window"><div class="window-dots"><i></i><i></i><i></i></div><div class="code-line short"></div><div class="code-line long"></div><div class="code-line medium"></div><div class="code-line long green-line"></div><div class="code-line short"></div></div><span class="focus-spark">✳</span></div>
+            <div class="highlight-copy"><div class="card-meta">PROJECTS <span>·</span> IN PROGRESS</div><h3>Make ideas useful.</h3><p>Topic-sized projects that help reinforce a skill or concept.</p><a class="card-link" href="#projects">See project tracker <span>→</span></a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block collection-section" id="academics">
+        <div class="section-heading">
+          <div><div class="eyebrow">ORGANIZED BY WHAT YOU'RE LEARNING</div><h2>Your learning shelves</h2></div>
+          <div class="section-tools"><label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search your work..." aria-label="Search work"></label><button class="filter-button" id="filterButton">All work <span>⌄</span></button></div>
+        </div>
+
+        <div class="collection-label"><span class="collection-icon violet-bg">▤</span><div><h3>Academics</h3><p>Subjects, coursework & assignment records</p></div><a href="#academics" class="subtle-link">View section ↗</a></div>
+        <div class="cards-grid" id="academicCards">
+          <article class="work-card" data-category="academics" data-search="CDA 101 foundations data analytics assignment notes"><div class="work-card-top"><span class="subject-icon icon-violet">01</span><span class="status status-active">IN PROGRESS</span></div><div class="work-type">SUBJECT · CDA 101</div><h3>Foundations of Data</h3><p>Class notes, practice questions, and assignment solutions.</p><div class="card-progress"><span>Progress</span><strong>72%</strong></div><div class="progress-track"><i style="width:72%"></i></div><div class="work-card-footer"><span>06 records</span><a href="#" class="repo-link" data-repo="Add your CDA 101 repository URL">Open records <span>↗</span></a></div></article>
+          <article class="work-card" data-category="academics" data-search="CDA 102 mathematics statistics assignment practice"><div class="work-card-top"><span class="subject-icon icon-orange">02</span><span class="status status-active">IN PROGRESS</span></div><div class="work-type">SUBJECT · CDA 102</div><h3>Mathematics & Statistics</h3><p>Concept practice, solved problems, and coursework.</p><div class="card-progress"><span>Progress</span><strong>48%</strong></div><div class="progress-track orange-track"><i style="width:48%"></i></div><div class="work-card-footer"><span>04 records</span><a href="#" class="repo-link" data-repo="Add your CDA 102 repository URL">Open records <span>↗</span></a></div></article>
+          <article class="work-card" data-category="academics" data-search="CDA 103 programming fundamentals python labs assignments"><div class="work-card-top"><span class="subject-icon icon-green">03</span><span class="status status-active">IN PROGRESS</span></div><div class="work-type">SUBJECT · CDA 103</div><h3>Programming Fundamentals</h3><p>Lab exercises, coding practice, and problem-solving tasks.</p><div class="card-progress"><span>Progress</span><strong>84%</strong></div><div class="progress-track green-track"><i style="width:84%"></i></div><div class="work-card-footer"><span>09 records</span><a href="#" class="repo-link" data-repo="Add your CDA 103 repository URL">Open records <span>↗</span></a></div></article>
+          <article class="work-card" data-category="academics" data-search="CDA 104 databases SQL DBMS assignments schema"><div class="work-card-top"><span class="subject-icon icon-blue">04</span><span class="status status-planned">UP NEXT</span></div><div class="work-type">SUBJECT · CDA 104</div><h3>Database Systems</h3><p>SQL queries, schema design, and DBMS assignments.</p><div class="card-progress"><span>Progress</span><strong>30%</strong></div><div class="progress-track blue-track"><i style="width:30%"></i></div><div class="work-card-footer"><span>03 records</span><a href="#" class="repo-link" data-repo="Add your CDA 104 repository URL">Open records <span>↗</span></a></div></article>
+        </div>
+
+        <div class="collection-label learning-label" id="learning"><span class="collection-icon orange-bg">⌘</span><div><h3>Skill Lab <span class="new-tag">SELF-LEARNING</span></h3><p>Independent learning paths, topic notes & experiments</p></div><a href="#learning" class="subtle-link">View section ↗</a></div>
+        <div class="cards-grid">
+          <article class="work-card" data-category="learning" data-search="Python skill lab functions OOP files APIs"><div class="work-card-top"><span class="skill-symbol skill-python">Py</span><span class="status status-active">LEARNING</span></div><div class="work-type">SKILL PATH · PYTHON</div><h3>Python Development</h3><p>From core syntax to functions, OOP, files, and APIs.</p><div class="topic-chips"><span>Core Python</span><span>Backend</span><span>Practice</span></div><div class="work-card-footer"><span>12 topics saved</span><a href="#" class="repo-link" data-repo="Add your Python learning repository URL">Open learning log <span>↗</span></a></div></article>
+          <article class="work-card" data-category="learning" data-search="data analytics pandas numpy visualization SQL"><div class="work-card-top"><span class="skill-symbol skill-analytics">▥</span><span class="status status-active">LEARNING</span></div><div class="work-type">SKILL PATH · DATA</div><h3>Data Analytics</h3><p>Notes and mini exercises for turning data into insight.</p><div class="topic-chips"><span>Pandas</span><span>SQL</span><span>Charts</span></div><div class="work-card-footer"><span>08 topics saved</span><a href="#" class="repo-link" data-repo="Add your Data Analytics repository URL">Open learning log <span>↗</span></a></div></article>
+          <article class="work-card" data-category="learning" data-search="machine learning AI model experiments scikit learn"><div class="work-card-top"><span class="skill-symbol skill-ml">✳</span><span class="status status-planned">EXPLORING</span></div><div class="work-type">SKILL PATH · AI / ML</div><h3>Machine Learning</h3><p>Model concepts, experiments, and learning checkpoints.</p><div class="topic-chips"><span>Models</span><span>Experiments</span></div><div class="work-card-footer"><span>05 topics saved</span><a href="#" class="repo-link" data-repo="Add your AI/ML learning repository URL">Open learning log <span>↗</span></a></div></article>
+        </div>
+
+        <div class="collection-label project-label" id="projects"><span class="collection-icon green-bg">◇</span><div><h3>Projects</h3><p>Small builds that make learning concrete</p></div><a href="#projects" class="subtle-link">View section ↗</a></div>
+        <div class="cards-grid project-cards">
+          <article class="work-card project-card" data-category="projects" data-search="SQL library database project schema queries"><div class="project-cover cover-sql"><span class="cover-mark">SQL<span>_</span></span><span class="cover-caption">STRUCTURE / QUERY / LEARN</span></div><div class="work-type">DATABASES · MINI PROJECT</div><h3>Library Query Practice</h3><p>A small database to practice schema design and SQL queries.</p><div class="project-footer"><span class="status status-done">COMPLETED</span><a href="#" class="repo-link" data-repo="Add your SQL project repository URL">View project ↗</a></div></article>
+          <article class="work-card project-card" data-category="projects" data-search="Python task tracker command line project"><div class="project-cover cover-python"><span class="terminal-mark">&gt;_</span><span class="cover-caption">A SMALL TOOL, BUILT STEP BY STEP</span></div><div class="work-type">PYTHON · MINI PROJECT</div><h3>Command-line Task Tracker</h3><p>A practice build for functions, data structures, and file handling.</p><div class="project-footer"><span class="status status-active">IN PROGRESS</span><a href="#" class="repo-link" data-repo="Add your task tracker repository URL">View project ↗</a></div></article>
+          <article class="work-card project-card" data-category="projects" data-search="machine learning exploratory data analysis project"><div class="project-cover cover-data"><div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="cover-caption">FIND THE SIGNAL IN THE DATA</span></div><div class="work-type">DATA · MINI PROJECT</div><h3>Dataset Exploration</h3><p>Exploring a dataset with cleaning, summaries, and visualizations.</p><div class="project-footer"><span class="status status-planned">PLANNED</span><a href="#" class="repo-link" data-repo="Add your dataset project repository URL">View project ↗</a></div></article>
+        </div>
+        <div class="empty-state" id="emptyState" hidden>No matching work found. Try another search.</div>
+      </section>
+
+      <section class="about-panel" id="about">
+        <div class="about-icon">T.</div><div class="about-copy"><div class="eyebrow">THE IDEA BEHIND TROAL</div><h2>A record of the process, not just the result.</h2><p>TROAL brings coursework, self-directed learning, and small projects into one organized space. Each card is a doorway to the actual work stored in your repositories — with enough context to remember what it is and why it matters.</p></div><a href="#overview" class="back-top">Back to top ↑</a>
+      </section>
+      <footer class="footer"><span>© 2026 TROAL · Track Record of All Learning</span><span>Made for curious minds <b>✳</b></span></footer>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
